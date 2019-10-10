@@ -1,0 +1,316 @@
+<html>
+<head>
+  <title>Eight Stages | Perosnal Info</title>
+  <link rel = "stylesheet" href = "./../../CSS/Reset.css"></link>
+  <link rel = "stylesheet" href = "./../../CSS/Layout.css"></link>
+  <link rel = "stylesheet" href = "./../../CSS/Style.css"></link>
+</head>
+<body>
+
+  <div class ="header">
+    <div class = "header-top">
+      <div class = "container">
+
+        <div class = "left-ban">
+          <img src = "#" class="title-icon"/>
+          <div class = "search-wrapper">
+            <input class = "search-input" placeholder="Search by Team, Member, or Entry Title" class="search-input"/>
+            <button class = "search-btn">SEARCH</button>
+          </div>
+        </div>
+
+        <div class = "right-ban">
+          <div class = "username-wrapper">
+            <span class = "username">Joe Burros</span>
+          </div>
+          <ul class = "user-nav">
+            <li><a href = "./../../index.html">Home</a></li>
+            <li><a href = "#">Setting</a></li>
+            <li><a href = "#">Log Out</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class ="header-bottom">
+      <div class = "container">
+        <div class = "left-ban">
+          <ul class = "main-nav">
+            <li><a href = "#">Create New Entry</a></li>
+            <li><a href = "./../topic_boxes.html">My Topic Boxes</a></li>
+            <li><a>Friends</a></li>
+            <li><a>Invite New Member</a></li>
+          </ul>
+        </div>
+        <div class = "right-ban">
+          <ul class = "invites-request">
+            <li class = "invites-wrapper"><a><div class = "right-ban"><span class = "invites-request-static-text">Topic Boxes Invites - </span><span class = "count">2</span></div></a></li>
+            <li class = "request-wrapper"><a><div class = "right-ban"><span class = "invites-request-static-text">Friends Request - </span><span class = "count">0</span></div></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "section">
+    <div class = "container">
+      <div class = "left-ban">
+        <div class = "inner-section">
+          <div class = "form-wrapper">
+            <ul class = "form-tabs">
+              <a href = "#"><li>Personal Information</li></a>
+              <a href = "profile.html"><li>Profile</li></a>
+              <a href = "#"><li>Notification</li></a>
+            </ul>
+            <div class = "personal-info-wrapper">
+              <div class = "personal-info-container">
+                <span class = "name-photo-title">1. Name & Photo</span>
+                <div class = "name-photo-form">
+                  <p>Your real name will always be shown to the people on your friends list. See privacy setting below.
+                    You have the option of keeping your real name and picture private for the public and members of
+                    website you do not know
+                  </p>
+                  <div class = "form-wrapper">
+                    <ul class = "name-info-wrapper">
+                      <li>
+                        <span class = "name-title-wrapper" >Real Name</span>
+                        <input type = "text" placeholder = "First Name"></input>
+                        <input type = "text" placeholder = "Last Name"></input>
+                      </li>
+
+                      <li>
+                        <span class = "name-title-wrapper">Public/Incognito Name</span>
+                        <input type = "text" placeholder = "Nickname/Incognito Name"></input>
+                        <span class = "name-error"> * required</span>
+                      </li>
+                    </ul>
+                    <span class = "concent-wrapper">
+                      Show non-members and members who are not my friends:
+                      <input type = "checkbox" name = "name-concent" value = "nickname"></input><label>My Nickname</label>
+                      <input type = "checkbox" name = "name-concent" value = "real-name"></input><label>My Realname</label>
+                    </span>
+                    <ul class = "image-upload-wrapper">
+                      <li>
+                        <div class = "image-organizer">
+                          <span class = "name-title-wrapper" >Real Picture</span>
+                          <div class = "user-image-wraper">
+                            <button class = "file-select-btn">CHOOSE FILE</button>
+                            <p class = "image-upload-instruction">
+                              No File Selected
+                              <span class = "selected-file-name">
+                                or
+                              </span>
+                              <span class = "selected-file-name">
+                                Drag $ Drop here
+                              </span>
+                            </p>
+                          </div>
+                          <button class = "upload-btn">UPLOAD PICTURE</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class = "image-organizer">
+                          <span class = "name-title-wrapper" >Public/Incognito Picture</span>
+                          <div class = "user-image-wraper">
+                            <button class = "file-select-btn">CHOOSE FILE</button>
+                            <p class = "image-upload-instruction">
+                              No File Selected
+                              <span class = "selected-file-name">
+                                or
+                              </span>
+                              <span class = "selected-file-name">
+                                Drag $ Drop here
+                              </span>
+                            </p>
+                          </div>
+                          <button class = "upload-btn">UPLOAD PICTURE</button>
+                        </div>
+                      </li>
+                    </ul>
+                    <span class = "concent-wrapper">
+                      Show non-members and members who are not my friends:
+                      <input type = "checkbox" name = "name-concent" value = "incognito"></input><label>My Incognito Picture</label>
+                      <input type = "checkbox" name = "name-concent" value = "real-picture"></input><label>My Real Picture</label>
+                    </span>
+                  </div>
+                </div>
+                <button class = "save-btn">SAVE CHANGES</button>
+              </div>
+
+              <div class = "personal-info-container">
+                <span class = "name-photo-title">2. Set time zone</span>
+                <div class = "time-zone-form">
+                  <p>Save your time zone so that your email notifications at the right time of the day</p>
+                  <p>
+                    <span class="time-zone-label">My Time Zone: </span>
+                    <select class = "time-zone-select">
+                     <option value = "20:33 pm - GMT - 06:00 America/Boise">20:33 pm - GMT - 06:00 America/Boise</option>
+                   </select>
+                 </p>
+                <button class = "save-btn">SAVE CHANGES</button>
+              </div>
+            </div>
+
+            <div class = "personal-info-container">
+              <span class = "name-photo-title">3. Change your password</span>
+              <div class = "password-form">
+                <p>Your password must have at least 6 characters</p>
+                <ul class = "password-info-wrapper">
+                  <li>
+                    <input type = "text" placeholder = "Enter Current Password"></input>
+                  </li>
+                  <li> </li>
+                  <li>
+                    <input type = "text" placeholder = "Enter New Password"></input>
+                    <input type = "text" placeholder = "Re-enter New Password"></input>
+                  </li>
+                </ul>
+                <button class = "save-btn">SAVE NEW PASSWORD</button>
+              </div>
+            </div>
+
+            <div class = "personal-info-container">
+              <span class = "name-photo-title">4. Deactivating & Permanently Closing My Account</span>
+              <div class = "deactivate-form">
+                <p>
+                  Deactivating your account will hide all your content from being viewed on the website, but your content will remain
+                  on our servers and you will be able to login into your account at any time to reactivate your account
+                </p>
+                <p>
+                  Permanently closing your account will erase all your data from our servers. All your content will be
+                  permanently erased from our server within two weeks of closing your account. You will be able to restore your
+                  account during this two week period
+                </p>
+                <button class = "save-btn">Deactivate My Account</button>
+                <button class = "save-btn">Permanently Deactivate My Account</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class = "right-ban">
+      <div class = "recent-wrapper">
+        <div class = "inner-wrapper-title">
+          <span class = "inner-title">Short & Sweet Video Tutorials</span>
+          <ul class = "recent-ul">
+            <a href = "#">
+              <li>
+                Overview of TuTangle
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Search the Site
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Previous & Saved Searches
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                The Topic Box Page
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Creating a Topic Box
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                View Topic Box Entries
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Creating an Entry
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Privacy Setting
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Co-Authoring
+              </li>
+            </a>
+          </ul>
+        </div>
+
+        <div class = "inner-wrapper-title">
+          <span class = "inner-title">Different Ways to Use EightStages </span>
+          <ul class = "recent-ul">
+            <a href = "#">
+              <li>
+                To Share Your Interests
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                As A Journal For your Life
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                For Discussions
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                For Interests Groups
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Family Events
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                To Share Your Travels
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                Parties & Ocassions
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                To Organize Events
+              </li>
+            </a>
+            <a href = "#">
+              <li>
+                For Projects
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class = "footer">
+  <div class = "container">
+    <div class = "footer-wrapper">
+      <ul class = "footer-nav">
+        <li><a href = "#">About us</a></li>
+        <li><a href = "#">Contact us</a></li>
+        <li><a href = "#">Terms of Use</a></li>
+        <li><a href = "#">Privacy Policy</a></li>
+        <li><a href = "#">Feed back</a></li>
+      </ul>
+      <span class = "copyright">&copy; Tutangle 2013</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

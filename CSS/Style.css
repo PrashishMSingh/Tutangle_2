@@ -1,0 +1,612 @@
+a, h1, h2, h3, span, li{
+  font-family:arial;
+}
+
+span{
+  color: #b1b1b1;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.search-input{
+  background-image:url(./../images/search-box.png);
+  background-size: 100% 18px;
+  width : 80%;
+  font-size: 10px;
+  margin-top: 10px;
+  padding:0 4px;
+  line-height: 18px;
+  background-color: #cbeff6;
+}
+
+.search-btn{
+  background-image: url(./../Images/search-btn-border.png);
+  background-size: 100% 18px;
+  padding: 0 5px;
+  line-height: 18px;
+  font-size: 10px;
+  background-color: #265055;
+  font-size: 8px;
+  float:right;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.user-nav{
+  margin-top: 3px;
+}
+
+.user-nav li{
+  float: left;
+  line-height: 10px;
+  font-size: 8px;
+}
+
+.user-nav li a{
+  padding: 0px 5px;
+  background-image:url(./../images/border-user-nav.png);
+  background-repeat: no-repeat;
+}
+
+.user-nav li:hover a{
+  color: white;
+}
+
+.user-nav > :first-child a{
+  background-image: none;
+}
+
+.user-nav > :last-child a{
+  padding-right: 0px
+}
+
+.username{
+  font-size: 10px;
+  line-height:14px;
+  margin-top: 5px;
+  display: block;
+  color: black;
+  text-align: right;
+}
+
+/* Needs to be implemented through Javascript */
+
+.burger-icon .main-nav{
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+.main-nav li{
+  width: 200px;
+  background: #f5f5f5;
+}
+
+.main-nav > :first-child{
+  background:#727272;
+  text-align: right;
+}
+
+.main-nav li:hover{
+  background: #2fc1d9;
+}
+
+.main-nav li:hover a{
+  color:white;
+}
+
+.main-nav li a{
+  font-size: 8px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.invites-wrapper span, .request-wrapper span{
+  color: black;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+.invites-wrapper{
+  float: left;
+  margin-right: 5px;
+}
+
+.request-wrapper{
+  float: right;
+}
+
+
+.entries-wrapper h1{
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.friend-request-span{
+  background-image: url(./../images/inactive-friends-request.png);
+  padding-left: 20px;
+}
+
+.boxes-invites-span{
+  background-image: url(./../images/active-invites-icon.png);
+  padding-left: 14px;
+
+}
+
+.boxes-invites-span,.friend-request-span, .count{
+  background-repeat: no-repeat;
+  font-size: 8px;
+  line-height: 14px;
+  height: 8px;
+}
+
+.inner-title{
+  padding: 0 6%;
+  line-height: 25px;
+  background: #2fc1d9;
+  display: block;
+  color: white;
+  font-size: 10px;
+}
+
+.recent-ul-1 li, .recent-ul-2 li, .video-tutorials li{
+  background: #f5f5f5;
+  line-height:18px;
+  padding: 0 6px;
+}
+
+.recent-ul-1 li a, .recent-ul-2 li a, .video-tutorials a{
+  font-size: 8px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:5px 5px;
+}
+
+.recent-ul-1 li:hover, .recent-ul-2 li:hover, .video-tutorials li:hover{
+  background: white;
+}
+
+
+
+.recent-ul-1 li a{
+  background-image: url(./../images/download-icon.png);
+}
+
+.recent-ul-2 li a{
+  background-image: url(./../images/burger-icon.png);
+}
+
+.entries-types li{
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 10px
+}
+
+.friends-nav{
+  margin-right: 2%;
+}
+
+.entries-list-tabs{
+  border-bottom:2px #2fc1d9 solid;
+}
+
+.entries-list-tabs li{
+  background-color: #dddddd;
+}
+
+.entries-list-tabs li:hover{
+  background-color: #2fc1d9;
+}
+
+.entries-list-tabs li:hover a{
+  color: white;
+}
+
+.entries-list-left{
+  width: 100%;
+}
+
+.entries-list-left li{
+  background-image: url(./../Images/entries-nav-border.png);
+  background-size: 100%, auto;
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
+
+.entries-list-left li a{
+  text-align: center;
+  line-height: 18px;
+  font-size: 8px;
+}
+
+.entries-list > li{
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+}
+
+.entry-details h2{
+  font-size: 10px;
+  text-align: left;
+}
+
+.inner-entry-details{
+  line-height: 8px;
+  margin-top: 5px;
+}
+
+.inner-entry-details li{
+  font-size: 8px;
+  float: left;
+  padding: 0 5px;
+  background: url(./../Images/border-user-nav.png);
+  background-repeat: no-repeat;
+}
+
+.inner-entry-details > :first-child{
+  background: none;
+  padding-left: 0px;
+}
+
+.entries-list li p{
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.director-name, .entries-genre{
+  color: #2fc1d9
+}
+
+.subscribed-indicator{
+  color:#6f9722;
+}
+
+.extra-entry-info ,.topic-box-invite{
+  font-size: 7px;
+  line-height: 10px;
+  display: block;
+}
+
+.extra-entry-info{
+  color: #2fc1d9;
+}
+
+.topic-box-invite{
+  color: #d73f1d;
+}
+
+
+.footer-nav li{
+  float: left;
+  padding: 0px 8px;
+  background: url(./../images/footer-nav-img.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 8px;
+}
+
+.footer-nav > :first-child{
+  background-image:none;
+  padding-left: 0px;
+}
+
+
+.footer-nav li a{
+  color: white;
+  line-height: 20px;
+}
+
+.copyright{
+  float: left;
+  font-size: 8px;
+  line-height: 20px;
+}
+
+/* Media query for tablet */
+@media only screen and (min-width:376px){
+  .invites-wrapper{
+    margin-right: 10px;
+  }
+
+  .user-nav li a{
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  .search-input{
+    width : 80%;
+    line-height: 25px;
+    padding: 0 10px;
+    background-size: 100% 25px;
+    background-color: #cbeff6;
+  }
+
+  .search-btn{
+    width: 10%;
+    line-height: 25px;
+    padding:0px;
+    background-size: 100% 25px;
+  }
+
+  .search-input, .search-btn{
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .invites-wrapper span, .request-wrapper span{
+    line-height: 40px;
+    font-size: 12px;
+  }
+
+  .invites-wrapper{
+    margin-right: 20px;
+  }
+
+  .username{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .inner-title{
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .entries-types li{
+    line-height: 30px;
+    font-size: 12px
+  }
+
+  .entries-list-tabs li{
+    width: 22%;
+    background-image: url(./../Images/entries-nav-border.png);
+    background-size: 100% 25px;
+  }
+
+  .entries-list-left li a{
+    text-align: center;
+    line-height: 25px;
+    font-size: 10px;
+  }
+
+  .recent-ul-1 li, .recent-ul-2 li, .video-tutorials li{
+    background: #f5f5f5;
+    line-height:30px;
+    padding: 0 6px;
+  }
+
+  .recent-ul-1 li a, .recent-ul-2 li a, .video-tutorials a{
+    font-size: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:5px 5px;
+  }
+
+  .entry-details h2{
+    font-size: 14px;
+  }
+
+
+  .video-tutorials li a{
+    line-height: 40px;
+    font-size: 10px;
+  }
+
+  .inner-entry-details{
+    line-height: 12px;
+  }
+
+  .inner-entry-details li{
+    font-size: 10px;
+  }
+
+  .entries-list li p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .extra-entry-info ,.topic-box-invite{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+
+  .footer-nav li a{
+    color: white;
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  .copyright{
+    float: left;
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+}
+
+/* Media query for desktop */
+@media only screen and (min-width:769px){
+.search-input{
+  width : 268px;
+  padding:0 4px;
+  line-height: 20px;
+  margin-left:24px;
+}
+
+.search-btn{
+  width: auto;
+  padding: 0 6px;
+  line-height: 20px;
+  background-color: #265055;
+  font-size: 10px;
+  color: white;
+  float: right;
+  margin-left: 10px;
+}
+
+.search-input, .search-btn{
+  background-size: auto auto;
+  margin-top: 0px;
+}
+
+.user-nav li{
+  float: left;
+  line-height: 12px;
+  font-size: 10px;
+}
+
+.user-nav li a{
+  padding: 0px 7px;
+  background-image:url(./../images/border-user-nav.png);
+  background-repeat: no-repeat;
+}
+
+.user-nav li:hover a{
+  color: white;
+}
+
+.user-nav > :first-child a{
+  background-image: none;
+}
+
+.user-nav > :last-child a{
+  padding-right: 0px
+}
+
+.username{
+  font-size: 14px;
+  line-height:24px;
+  display: block;
+  color: black;
+  text-align: right;
+  margin-top: 0px;
+}
+
+
+.burger-icon .main-nav{
+  display: inline-block;
+  position: static;
+  margin-left: -3px;
+  margin-bottom: -10px;
+}
+
+.main-nav li{
+  background: none;
+  display:inline-block;
+  position:static;
+  float:left;
+  width: auto;
+}
+
+.main-nav > :first-child{
+  display:none;
+  background: orange;
+}
+
+.main-nav li a{
+  font-size: 12px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.invites-wrapper{
+  margin-right: 20px;
+}
+
+.invites-wrapper a{
+  color: black;
+}
+
+.entries-wrapper h1{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+
+.friend-request-span{
+  padding-left: 26px;
+  padding-top: 3px;
+}
+
+.boxes-invites-span{
+  padding-left: 18px;
+  padding-top: 2px;
+}
+
+.invites-wrapper span, .request-wrapper span{
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.boxes-invites-span,.friend-request-span, .count{
+  font-size: 12px;
+  line-height: 40px;
+}
+
+.inner-title{
+  padding: 0 12px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.recent-ul-1 li, .recent-ul-2 li, .video-tutorials li{
+  line-height:33px;
+  padding: 0 11px;
+}
+
+.recent-ul-1 li a, .recent-ul-2 li a, .video-tutorials li a{
+  font-size: 11px;
+  background-size:auto auto;
+}
+
+.entries-types li{
+  line-height: 37px;
+  font-size: 12px
+}
+
+.friends-nav{
+  margin-right: 10px;
+}
+
+.entries-list-tabs li{
+  width: 114px;
+  background-image: url(./../Images/entries-nav-border.png);
+  background-size: 114px 28px;
+}
+
+.entries-list-tabs li a{
+  text-align: center;
+  line-height: 28px;
+  font-size: 10px;
+}
+
+.entries-list-left li{
+  margin-left: 10px;
+}
+
+.footer-nav li{
+  padding: 0px 12px;
+  font-size: 12px;
+}
+
+.footer-nav li a{
+  line-height: 40px;
+}
+
+.copyright{
+  float: right;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+}
